@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IntentTest</string>
+    <array name="list">
+        <item>element 1</item>
+        <item>element 2</item>
+
+    </array>
+</resources>

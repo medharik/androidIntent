@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.harik.lenovo.intenttest.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/layot">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewentrer"
+            android:text="entrer un prix"
+            android:textAlignment="center"
+android:layout_weight="2"
+
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextprix"
+
+
+            android:layout_weight="5"
+
+            android:hint="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewdevise"
+            android:text="Dirhams"
+            android:layout_weight="2"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+      android:layout_gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btncalculer"
+            android:text="calculer le ptc"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnchanger"
+            android:text="changer la devise"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="Prix taxe comprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewresultat"
+        android:textSize="20dip"
+        />
+
+    <TextView
+        android:text="Tél:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/entrertel" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTexttel"
+        android:hint="Numéro de téléphone" />
+
+    <Button
+        android:text="Appeler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/telephoner"
+        tools:text="téléphoner"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/changerlangue"
+        tools:text="Lister"
+  android:text="Lister" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlisterUsers"
+        tools:text="Lister users"
+        android:text="Lister users " />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/httpok"
+        tools:text="persister  positions "
+        android:text="Persisiter positions " />
+
+
+</LinearLayout>
